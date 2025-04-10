@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .form-container {
+    background-color: #fff;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 350px;
+  }
+  
+  .form-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+  }
+  
+  .register label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .register input[type="text"],
+  .register input[type="email"],
+  .register input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: border 0.3s;
+  }
+  
+  .register input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .register input[type="submit"] {
+    margin-top: 25px;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .register div[id^="output"] {
+    color: red;
+    font-size: 12px;
+    margin-top: 4px;
+  }
+  
