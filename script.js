@@ -52,6 +52,7 @@ document.getElementById('registrationform').addEventListener('submit', function(
         valid=false;
         outputd.innerHTML="empty!! ";   
     }else if(password != confirmpassword){
+        valid=false;
         outputd.innerHTML="the password do not match!!";
     }else{
          outputd.innerHTML="";
